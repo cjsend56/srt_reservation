@@ -8,8 +8,8 @@ from srt_reservation.util import parse_cli_args
 if __name__ == "__main__":
     cli_args = parse_cli_args()
 
-    login_id = cli_args.user
-    login_psw = cli_args.psw
+    login_id = 2397897919
+    login_psw = "sr1032300!"
     dpt_stn = cli_args.dpt
     arr_stn = cli_args.arr
     dpt_dt = cli_args.dt
